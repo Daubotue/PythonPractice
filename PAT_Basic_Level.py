@@ -435,3 +435,56 @@
 #     print(0)
 # else:
 #     print(res, yName, oName)
+
+"""1029 旧键盘 （20 分）"""
+# inA = list(input())
+# inB = input()
+# for i in inB:
+#     inA.remove(i) if i in inA else None
+# for i in range(len(inA)):
+#     if (ord(inA[i])>=ord('a')) and (ord(inA[i])<=ord('z')):
+#         inA[i] = chr(ord(inA[i]) - 32)
+# res = []
+# for i in inA:
+#     if i not in res:
+#         res.append(i)
+# print(''.join(res))
+
+"""1030 完美数列 （25 分）"""
+# N, p = [int(i) for i in input().split()]
+# sl = sorted([int(i) for i in input().split()])
+# res = 0
+# for i in range(N):
+#     for j in range(i+res, N):
+#         if sl[i] * p < sl[j]:
+#             break
+#         res += 1
+# print(res)
+
+"""1031 查验身份证 （15 分）"""
+# Z = [7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2]
+# M = ['1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2']
+# N = int(input())
+# flag = 0
+# for i in range(N):
+#     num = input()
+#     if len(num) != 18:
+#         print(num)
+#         flag = 1
+#     else:
+#         sum = 0
+#         mark = 0
+#         for j in range(17):
+#             try:
+#                 sum += int(num[j]) * Z[j]
+#             except:
+#                 print(num)
+#                 mark = 1
+#                 flag = 1
+#                 break
+#         if mark == 0:
+#             if M[sum % 11] != num[-1]:
+#                 print(num)
+#                 flag = 1
+# if flag == 0:
+#     print('All passed')
