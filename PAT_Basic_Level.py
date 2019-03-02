@@ -488,3 +488,26 @@
 #                 flag = 1
 # if flag == 0:
 #     print('All passed')
+
+"""1032 挖掘机技术哪家强 （20 分）"""
+# N = int(input())
+# scores = [0] * (N+1)
+# for i in range(N):
+#     id, src = list(map(int, input().split()))
+#     scores[id] += src
+# res = scores.index(max(scores))
+# print(res, scores[res])
+
+"""1033 旧键盘打字 （20 分）"""
+# broke = input()
+# content = input()
+# res = str()
+# for s in content:
+#     if s.isalpha():
+#         ch = s.upper()
+#     else:
+#         ch = s
+#     if ch not in broke:
+#         if '+' not in broke or (False == ch.isalpha()) or s.islower():
+#             res += s
+# print(res)
