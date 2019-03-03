@@ -511,3 +511,35 @@
 #         if '+' not in broke or (False == ch.isalpha()) or s.islower():
 #             res += s
 # print(res)
+
+"""1036 跟奥巴马一起编程 （15 分）"""
+# N, C = input().split()
+# row = (int(N) + 1) // 2
+# col = int(N)
+# for i in range(row):
+#     if i==0 or i==row-1:
+#         print(''.join([C]*col))
+#     else:
+#         print(''.join([C]+[' ']*(col-2)+[C]))
+
+"""1037 在霍格沃茨找零钱 （20 分）"""
+# a, b = input().split()
+# numA = a.split('.')
+# numB = b.split('.')
+# moneyA = int(numA[0])*17*29 + int(numA[1])*29 + int(numA[2])
+# moneyB = int(numB[0])*17*29 + int(numB[1])*29 + int(numB[2])
+# change = moneyB - moneyA
+# if change < 0:
+#     print('-', end='')
+#     change = -change;
+# print('%d.%d.%d' % (change//(17*29), (change%(17*29))//29, change%29))
+
+"""1038 统计同成绩学生 （20 分）"""
+# N = int(input())
+# scr = list(map(int, input().split()))
+# M = list(map(int, input().split()))
+# for i in range(1, M[0]+1):
+#     if i == M[0]:
+#         print(scr.count((M[i])))
+#     else:
+#         print(scr.count(M[i]), end=' ')
