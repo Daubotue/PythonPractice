@@ -543,3 +543,45 @@
 #         print(scr.count((M[i])))
 #     else:
 #         print(scr.count(M[i]), end=' ')
+
+"""1039 到底买不买 （20 分）"""
+# a = list(input())
+# b = list(input())
+# pos = 0
+# while pos < len(b):
+#     if b[pos] in a:
+#         a.remove(b[pos])
+#         del(b[pos])
+#     else:
+#         pos += 1
+# if len(b) == 0:
+#     print('Yes', len(a))
+# else:
+#     print('No', len(b))
+
+"""1040 有几个PAT （25 分）"""
+# ss = input()
+# numP, numPA, numPAT = 0, 0, 0
+# for i in range(len(ss)):
+#     if ss[i] == 'P':
+#         numP += 1
+#     elif ss[i] == 'A':
+#         numPA += numP
+#     elif ss[i] == 'T':
+#         numPAT += numPA
+# print(numPAT % 1000000007)
+
+"""1041 考试座位号 （15 分）"""
+# N = int(input())
+# info = []
+# for i in range(N):
+#     stu = input().split()
+#     info.append(stu)
+# M = int(input())
+# id = input().split()
+# for i in id:
+#     for single in info:
+#         if single[1] == i:
+#             print(single[0], single[2])
+#             break
+
