@@ -585,3 +585,72 @@
 #             print(single[0], single[2])
 #             break
 
+"""1042 字符统计 （20 分）"""
+# s = input()
+# dic = [chr(i) for i in range(ord('a'), ord('z')+1)]
+# times = []
+# s = s.lower()
+# for i in dic:
+#     cnt = s.count(i)
+#     times.append(cnt)
+# res = max(times)
+# index = times.index(res)
+# print(dic[index], res)
+
+"""1043 输出PATest （20 分）"""
+# s = input()
+# dic = list('PATest')
+# cnts = [0] * 6
+# for i in s:
+#     if i == 'P':
+#         cnts[0] += 1
+#     elif i == 'A':
+#         cnts[1] += 1
+#     elif i == 'T':
+#         cnts[2] += 1
+#     elif i == 'e':
+#         cnts[3] += 1
+#     elif i == 's':
+#         cnts[4] += 1
+#     elif i == 't':
+#         cnts[5] += 1
+# res = str()
+# while max(cnts) > 0:
+#     for i in range(6):
+#         if cnts[i] != 0:
+#             res += dic[i]
+#             cnts[i] -= 1
+# print(res)
+
+"""1044 火星数字 （20 分）"""
+# units = 'tret, jan, feb, mar, apr, may, jun, jly, aug, sep, oct, nov, dec'.split(', ')
+# decades = ', tam, hel, maa, huh, tou, kes, hei, elo, syy, lok, mer, jou'.split(', ')
+#
+# def earth2mars(num):
+#     if num > 12:
+#         ll = []
+#         ll.append(decades[num // 13])
+#         if num % 13 != 0:
+#             ll.append(units[num % 13])
+#         print(' '.join(ll))
+#     else:
+#         print(units[num % 13])
+#
+# def mars2earth(num):
+#     ll = num.split()
+#     res = 0
+#     if len(ll) > 1:
+#         res = decades.index(ll[0]) * 13 + units.index(ll[1])
+#     elif ll[0] in decades:
+#         res = decades.index(ll[0]) * 13
+#     elif ll[0] in units:
+#         res = units.index(ll[0])
+#     print(res)
+#
+# N = int(input())
+# for i in range(N):
+#     a = input()
+#     if a.isdigit():
+#         earth2mars(int(a))
+#     else:
+#         mars2earth(a)
