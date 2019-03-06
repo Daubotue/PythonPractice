@@ -654,3 +654,59 @@
 #         earth2mars(int(a))
 #     else:
 #         mars2earth(a)
+
+"""1045 快速排序 （25 分）"""
+# N = int(input())
+# nums = list(map(int, input().split()))
+# res = []
+# nMax = 0
+# for i in range(N):
+#     if nums[i] > nMax:
+#         nMax = nums[i]
+#         res.append(nMax)
+#     else:
+#         for j in range(len(res)-1, -1, -1):
+#             if res[j] >= nums[i]:
+#                 del res[j]
+#             else:
+#                 break
+# res.sort()
+# print(len(res))
+# if len(res) == 0:
+#     print("")
+# else:
+#     for i in range(len(res)):
+#         if i == len(res) - 1:
+#             print(res[i])
+#         else:
+#             print(res[i], end=' ')
+
+"""1046 划拳 （15 分）"""
+# N = int(input())
+# cntA, cntB = 0, 0
+# for i in range(N):
+#     nums = list(map(int, input().split()))
+#     su = nums[0] + nums[2]
+#     if su == nums[1] and su != nums[3]:
+#         cntB += 1
+#     elif su == nums[3] and su != nums[1]:
+#         cntA += 1
+# print(cntA, cntB)
+
+"""1047 编程团体赛 （20 分）"""
+# N = int(input())
+# res = {}
+# for i in range(N):
+#     a = input().split()
+#     b = a[0].split('-')
+#     if b[0] in res:
+#         res[b[0]] += int(a[1])
+#     else:
+#         res[b[0]] = int(a[1])
+# maxKey = str()
+# nMax = 0
+# for u in res:
+#     if res[u] > nMax:
+#         nMax = res[u]
+#         maxKey = u
+# print(maxKey, nMax)
