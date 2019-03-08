@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3417a442-7abe-427b-8e99-652f0e646809" name="Default" comment="lxj:1042 ~ 1044">
+    <list default="true" id="3417a442-7abe-427b-8e99-652f0e646809" name="Default" comment="lxj:1045 ~ 1047">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PAT_Basic_Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/PAT_Basic_Level.py" afterDir="false" />
     </list>
@@ -15,17 +15,21 @@
     <SUITE FILE_PATH="coverage/learn_python$P61.coverage" NAME="P61 Coverage Results" MODIFIED="1551061173639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P3.coverage" NAME="P3 Coverage Results" MODIFIED="1550404695838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$C19.coverage" NAME="C19 Coverage Results" MODIFIED="1551745620992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$C24.coverage" NAME="C24 Coverage Results" MODIFIED="1551840598369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$C24.coverage" NAME="C24 Coverage Results" MODIFIED="1551871443497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P4.coverage" NAME="P4 Coverage Results" MODIFIED="1550406887949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P7.coverage" NAME="P7 Coverage Results" MODIFIED="1550459435496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P19.coverage" NAME="P19 Coverage Results" MODIFIED="1551274161476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P11.coverage" NAME="P11 Coverage Results" MODIFIED="1550569978447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$PAT_Basic_Level.coverage" NAME="PAT_Basic_Level Coverage Results" MODIFIED="1551274631054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$P47.coverage" NAME="P47 Coverage Results" MODIFIED="1551616288476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$C36.coverage" NAME="C36 Coverage Results" MODIFIED="1551918478207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$mofan5.coverage" NAME="mofan5 Coverage Results" MODIFIED="1551840592084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$PAT_Basic_Level.coverage" NAME="PAT_Basic_Level Coverage Results" MODIFIED="1551842405990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$PAT_Basic_Level.coverage" NAME="PAT_Basic_Level Coverage Results" MODIFIED="1552012336127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$P31.coverage" NAME="P31 Coverage Results" MODIFIED="1551441026446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P17.coverage" NAME="P17 Coverage Results" MODIFIED="1550837489813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$C50.coverage" NAME="C50 Coverage Results" MODIFIED="1551921967666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$C53.coverage" NAME="C53 Coverage Results" MODIFIED="1551923826417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$P67.coverage" NAME="P67 Coverage Results" MODIFIED="1552006991691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$C4.coverage" NAME="C4 Coverage Results" MODIFIED="1551704394406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$P51.coverage" NAME="P51 Coverage Results" MODIFIED="1551788066269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PAT_Basic_Level.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="711" column="18" selection-start-line="711" selection-start-column="18" selection-end-line="711" selection-end-column="18" />
+            <state relative-caret-position="472">
+              <caret line="807" column="29" selection-start-line="807" selection-start-column="29" selection-end-line="807" selection-end-column="29" />
               <folding>
                 <element signature="e#34#52#0" />
                 <element signature="e#218#235#0" />
@@ -79,9 +83,17 @@
                 <element signature="e#15355#15443#0" />
                 <element signature="e#16245#16263#0" />
                 <element signature="e#16834#16852#0" />
+                <element signature="e#17139#17157#0" />
+                <element signature="e#17502#17520#0" />
+                <element signature="e#17694#17714#0" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn_sklearn.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -97,46 +109,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mofan5.py">
+        <entry file="file://$PROJECT_DIR$/P67.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+            <state relative-caret-position="189">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <element signature="e#3716#3739#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C4.py">
+        <entry file="file://$PROJECT_DIR$/C53.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2667">
-              <caret line="130" column="17" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C19.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C24.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="2142">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -174,14 +162,18 @@
         <option value="$PROJECT_DIR$/P51.py" />
         <option value="$PROJECT_DIR$/mofan5.py" />
         <option value="$PROJECT_DIR$/C24.py" />
+        <option value="$PROJECT_DIR$/C36.py" />
+        <option value="$PROJECT_DIR$/C50.py" />
+        <option value="$PROJECT_DIR$/C53.py" />
+        <option value="$PROJECT_DIR$/learn_sklearn.py" />
+        <option value="$PROJECT_DIR$/P67.py" />
         <option value="$PROJECT_DIR$/PAT_Basic_Level.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="679" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -196,11 +188,6 @@
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +217,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.PAT_Basic_Level">
-    <configuration name="C19" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="C36" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +230,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C36.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="C24" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="C50" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,7 +252,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C24.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C50.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P51" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="C53" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,7 +274,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P51.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C53.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="P67" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P67.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,42 +327,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mofan5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learn_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mofan5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.PAT_Basic_Level" />
-      <item itemvalue="Python.P51" />
-      <item itemvalue="Python.C19" />
-      <item itemvalue="Python.C24" />
-      <item itemvalue="Python.mofan5" />
+      <item itemvalue="Python.C36" />
+      <item itemvalue="Python.C50" />
+      <item itemvalue="Python.C53" />
+      <item itemvalue="Python.P67" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.PAT_Basic_Level" />
-        <item itemvalue="Python.C24" />
-        <item itemvalue="Python.mofan5" />
-        <item itemvalue="Python.P51" />
-        <item itemvalue="Python.C19" />
+        <item itemvalue="Python.P67" />
+        <item itemvalue="Python.C53" />
+        <item itemvalue="Python.C50" />
+        <item itemvalue="Python.C36" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +370,11 @@
       <workItem from="1551743124051" duration="7578000" />
       <workItem from="1551788007781" duration="1330000" />
       <workItem from="1551791504793" duration="45000" />
-      <workItem from="1551831915146" duration="8972000" />
+      <workItem from="1551831915146" duration="9172000" />
+      <workItem from="1551859603864" duration="5613000" />
+      <workItem from="1551917434112" duration="9488000" />
+      <workItem from="1552004982677" duration="1609000" />
+      <workItem from="1552008092864" duration="2319000" />
     </task>
     <task id="LOCAL-00001" summary="lxj:1030 1031">
       <created>1551442145421</created>
@@ -420,17 +411,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551752705561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lxj:1045 ~ 1047">
+      <created>1551842456600</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551842456600</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62849000" />
+    <option name="totallyTimeSpent" value="82078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1248" y="0" width="679" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3069467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22538294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,7 +460,8 @@
     <MESSAGE value="lxj:1036 ~ 1038" />
     <MESSAGE value="lxj:1039 ~ 1041" />
     <MESSAGE value="lxj:1042 ~ 1044" />
-    <option name="LAST_COMMIT_MESSAGE" value="lxj:1042 ~ 1044" />
+    <MESSAGE value="lxj:1045 ~ 1047" />
+    <option name="LAST_COMMIT_MESSAGE" value="lxj:1045 ~ 1047" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/P3.py" />
@@ -483,6 +482,30 @@
     <entry file="file://$PROJECT_DIR$/P31.py" />
     <entry file="file://$PROJECT_DIR$/P47.py" />
     <entry file="file://$PROJECT_DIR$/P19.py" />
+    <entry file="file://$PROJECT_DIR$/mofan5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4.py" />
+    <entry file="file://$PROJECT_DIR$/C19.py" />
+    <entry file="file://$PROJECT_DIR$/C24.py" />
+    <entry file="file://$PROJECT_DIR$/C36.py" />
+    <entry file="file://$PROJECT_DIR$/C50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/P51.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -493,50 +516,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C4.py">
+    <entry file="file://$PROJECT_DIR$/C53.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2667">
-          <caret line="130" column="17" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="17" />
+        <state relative-caret-position="2142">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C19.py">
+    <entry file="file://$PROJECT_DIR$/P67.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mofan5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
-          <folding>
-            <element signature="e#3716#3739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C24.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PAT_Basic_Level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="711" column="18" selection-start-line="711" selection-start-column="18" selection-end-line="711" selection-end-column="18" />
+        <state relative-caret-position="472">
+          <caret line="807" column="29" selection-start-line="807" selection-start-column="29" selection-end-line="807" selection-end-column="29" />
           <folding>
             <element signature="e#34#52#0" />
             <element signature="e#218#235#0" />
@@ -580,6 +583,9 @@
             <element signature="e#15355#15443#0" />
             <element signature="e#16245#16263#0" />
             <element signature="e#16834#16852#0" />
+            <element signature="e#17139#17157#0" />
+            <element signature="e#17502#17520#0" />
+            <element signature="e#17694#17714#0" />
           </folding>
         </state>
       </provider>

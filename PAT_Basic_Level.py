@@ -710,3 +710,99 @@
 #         nMax = res[u]
 #         maxKey = u
 # print(maxKey, nMax)
+
+"""1049 数列的片段和 （20 分）"""
+# N = int(input())
+# nums = list(map(float, input().split()))
+# res = 0
+# for i in range(len(nums)):
+#     res += nums[i] * (i+1) * (len(nums)-i)
+# print("%.2f" % res)
+
+"""1050 螺旋矩阵 （25 分）"""
+# import numpy as np
+# import math
+#
+# N = int(input())
+# cols = int(math.sqrt(N))
+# rows = 0
+# while (N % cols != 0):
+#     cols -= 1
+# rows = N // cols
+# nums = list(map(int, input().split()))
+# nums.sort(reverse=True)
+# mat = np.zeros([rows, cols], np.uint8)
+# k = 0
+# i, j = 0, 0
+# XL, XR, YU, YD = 0, cols, 0, rows
+# while k < N:
+#     while k<N and j<XR:
+#         mat[i, j] = nums[k]
+#         j += 1
+#         k += 1
+#     j -= 1
+#     YU += 1
+#     i += 1
+#     while k<N and i<YD:
+#         mat[i, j] = nums[k]
+#         i += 1
+#         k += 1
+#     i -= 1
+#     XR -= 1
+#     j -= 1
+#     while k<N and j>=XL:
+#         mat[i, j] = nums[k]
+#         j -= 1
+#         k += 1
+#     j += 1
+#     YD -= 1
+#     i -= 1
+#     while k<N and i>=YU:
+#         mat[i, j] = nums[k]
+#         i -= 1
+#         k += 1
+#     i += 1
+#     XL += 1
+#     j += 1
+# for i in range(mat.shape[0]):
+#     for j in range(mat.shape[1]):
+#         if j == mat.shape[1]-1:
+#             print(mat[i, j])
+#         else:
+#             print(mat[i, j], end=' ')
+
+"""1051 复数乘法 （15 分）"""
+# import math
+# nums = list(map(float, input().split()))
+# A1 = nums[0] * math.cos(nums[1])
+# B1 = nums[0] * math.sin(nums[1])
+# A2 = nums[2] * math.cos(nums[3])
+# B2 = nums[2] * math.sin(nums[3])
+# A = A1 * A2 - B1 * B2
+# B = A1 * B2 + B1 * A2
+# if A>=-0.005 and A<0:
+#     print('0.00', end='')
+# else:
+#     print('%.2f' % A, end='')
+# if B >= 0:
+#     print('+%.2fi' % B)
+# elif B>=-0.005 and B<0:
+#     print('+0.00i')
+# else:
+#     print('%.2fi' % B)
+
+"""1053 住房空置率 （20 分）"""
+# N, e, D = input().split()
+# N, e, D = int(N), float(e), int(D)
+# num1, num2 = 0, 0
+# for i in range(N):
+#     days = input().split()
+#     cnt = 0
+#     for j in range(1, int(days[0])+1):
+#         if float(days[j]) < e:
+#             cnt += 1
+#     if cnt/int(days[0]) > 0.5 and int(days[0]) <= D:
+#         num1 += 1
+#     elif cnt/int(days[0]) > 0.5 and int(days[0]) > D:
+#         num2 += 1
+# print('%.1f%% %.1f%%' % (100*num1/N, 100*num2/N))
