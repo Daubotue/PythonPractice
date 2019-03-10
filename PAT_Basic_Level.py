@@ -806,3 +806,56 @@
 #     elif cnt/int(days[0]) > 0.5 and int(days[0]) > D:
 #         num2 += 1
 # print('%.1f%% %.1f%%' % (100*num1/N, 100*num2/N))
+
+"""1054 求平均值 （20 分）"""
+# import re
+#
+# def matchNum(num):
+#     reg = r'^[-]?(\d{0,3}|1000)$|^[-]?\d{0,3}\.\d{0,2}$|^[-]?1000\.0{0,2}$'
+#     m = re.match(reg, num)
+#     if m:
+#         return True
+#     else:
+#         return False
+#
+# N = int(input())
+# nums = input().strip().split()
+# k, sum = 0, 0.0
+# for i in range(N):
+#     if matchNum(nums[i]):
+#        k += 1
+#        sum += float(nums[i])
+#     else:
+#         print('ERROR: %s is not a legal number' % nums[i])
+# if k == 0:
+#     print('The average of 0 numbers is Undefined')
+# elif k == 1:
+#     print('The average of 1 number is %.2f' % sum)
+# else:
+#     print('The average of %d numbers is %.2f' % (k, sum/k))
+
+"""1055 集体照 （25 分）"""
+# N, K = list(map(int, input().split()))
+# lst = []
+# for i in range(N):
+#     [name, height] = input().split()
+#     lst.append([name, int(height)])
+# lst.sort(key=lambda x: (-x[1], x[0]))
+# rows = N // K
+# col = N - (K-1) * rows
+# pRow = [lst[:col]]+[lst[col+i*rows:col+(i+1)*rows] for i in range(K-1)]
+# for i in range(K):
+#     length = len(pRow[i])
+#     res = ['']*length
+#     mid = length // 2
+#     cnt = 1
+#     res[mid] = pRow[i][0][0]
+#     for j in range(1, length, 2):
+#         if j == length - 1:
+#             res[mid-cnt] = pRow[i][j][0]
+#         else:
+#             res[mid-cnt] = pRow[i][j][0]
+#             res[mid+cnt] = pRow[i][j+1][0]
+#             cnt += 1
+#     print(' '.join(res))
+
