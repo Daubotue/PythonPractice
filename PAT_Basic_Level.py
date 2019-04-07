@@ -859,3 +859,47 @@
 #             cnt += 1
 #     print(' '.join(res))
 
+"""1061 判断题 （15 分)"""
+# N, M = map(int, input().split())
+# scores = list(map(int, input().split()))
+# answers = input().split()
+# for i in range(N):
+#     stu = input().split()
+#     tot = 0
+#     for j in range(M):
+#         if stu[j] == answers[j]:
+#            tot += scores[j]
+#     print(tot)
+
+"""1062 最简分数 （20 分)"""
+# def isMini(denom, num):
+#     a = max(denom, num)
+#     b = min(denom, num)
+#     while b:
+#         c = a % b
+#         a, b = b, c
+#     if a == 1:
+#         return True
+#     else:
+#         return False
+#
+#
+# A, B, K = input().split()
+# K = int(K)
+# N1, M1 = map(int, A.split('/'))
+# N2, M2 = map(int, B.split('/'))
+# l1 = min(float(N1) / M1, float(N2) / M2)
+# l2 = max(float(N1) / M1, float(N2) / M2)
+# res = []
+# tot = 0
+# for i in range(1, K):
+#     rs = float(i) / K
+#     if rs >= l2:
+#         break
+#     elif rs > l1:
+#         if isMini(i, K):
+#             res.append(i)
+#             tot += 1
+# for i in range(0, tot-1):
+#     print('%d/%d' % (res[i], K), end=' ')
+# print('%d/%d' % (res[tot-1], K))
