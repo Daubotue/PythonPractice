@@ -903,3 +903,36 @@
 # for i in range(0, tot-1):
 #     print('%d/%d' % (res[i], K), end=' ')
 # print('%d/%d' % (res[tot-1], K))
+
+"""1063 计算谱半径 （20 分)"""
+# import math
+# N = int(input())
+# res = 0
+# for i in range(N):
+#     a, b = map(int, input().split())
+#     res = max(res, a*a+b*b)
+# print("%.2f" % math.sqrt(res))
+
+"""1064 朋友数 （20 分)"""
+# def calSum(num):
+#     sum = 0
+#     while num:
+#         sum += num % 10
+#         num = int(num / 10)
+#     return sum
+#
+# N = int(input())
+# res = []
+# nums = list(map(int, input().split()))
+# nLen = 0
+# for i in range(N):
+#     sum = calSum(nums[i])
+#     if sum not in res:
+#         res.append(sum)
+#         nLen += 1
+#
+# print(nLen)
+# res.sort(key=lambda x: x)
+# for i in range(nLen-1):
+#     print(res[i], end=" ")
+# print(res[nLen-1])
