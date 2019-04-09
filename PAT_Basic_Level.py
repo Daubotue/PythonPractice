@@ -936,3 +936,35 @@
 # for i in range(nLen-1):
 #     print(res[i], end=" ")
 # print(res[nLen-1])
+
+"""1065 单身狗 （25 分)"""
+# N = int(input())
+# dic = {}
+# for i in range(N):
+#     a, b = input().split()
+#     dic[a] = b
+# M = int(input())
+# persons = input().split()
+# personsSet = set(persons)
+# keySet = set(dic.keys())
+# for per in personsSet:
+#     if (per in keySet) and (dic[per] in personsSet):
+#         persons.remove(per)
+#         persons.remove(dic[per])
+# print(len(persons))
+# if len(persons) > 0:
+#     persons.sort(key= lambda x: x)
+#     result = ' '.join(persons)
+#     print(result)
+
+"""1066 图像过滤 （15 分)"""
+# M, N, A, B, C = map(int, input().split())
+# for i in range(M):
+#     pixels = list(input().split())
+#     res = []
+#     for pix in pixels:
+#         if A <= int(pix) <= B:
+#             res.append('{:03d}'.format(C))
+#         else:
+#             res.append('{:03d}'.format(int(pix)))
+#     print(' '.join(res))
