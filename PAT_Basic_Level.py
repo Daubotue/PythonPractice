@@ -968,3 +968,59 @@
 #         else:
 #             res.append('{:03d}'.format(int(pix)))
 #     print(' '.join(res))
+
+"""1067 试密码 （20 分)"""
+# code, N = input().split()
+# N = int(N)
+# while N > 0:
+#     N -= 1
+#     inp = input()
+#     if inp == '#':
+#         break
+#     if inp == code:
+#         print("Welcome in")
+#         break
+#     else:
+#         if N == 0:
+#             print("Wrong password:", inp)
+#             print("Account locked")
+#         else:
+#             print("Wrong password:", inp)
+
+"""1068 万绿丛中一点红 （20 分)"""
+# import math
+# def isValid(row, col, N, M, pic, ep):
+#     uRow = max(row-1, 0)
+#     dRow = min(row+1, N-1)
+#     lCol = max(0, col-1)
+#     rCol = min(M-1, col+1)
+#     for r in range(uRow, dRow+1):
+#         for c in range(lCol, rCol+1):
+#             if (row!=r and col!=c) and math.fabs(pic[row][col]-pic[r][c])<=ep:
+#                 return False
+#     return True
+#
+#
+# M, N, TOL = map(int, input().split())
+# pic = []
+# for row in range(N):
+#     r = list(map(int, input().split()))
+#     pic.append(r)
+# dic = {}
+# for row in range(N):
+#     for col in range(M):
+#         if pic[row][col] not in dic.keys():
+#             dic[pic[row][col]] = 0
+#         dic[pic[row][col]] += 1
+# res = []
+# for row in range(N):
+#     for col in range(M):
+#         if (dic[pic[row][col]]==1) and isValid(row, col, N, M, pic, TOL):
+#             s = "({0}, {1}): {2}".format(col+1, row+1, pic[row][col])
+#             res.append(s)
+# if len(res) == 0:
+#     print("Not Exist")
+# elif len(res) == 1:
+#     print(res[0])
+# else:
+#     print("Not Unique")

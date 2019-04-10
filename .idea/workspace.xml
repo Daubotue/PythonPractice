@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/PAT_Basic_Level.py" description="&quot;&quot;&quot;1064 朋友数 （20 分)&quot;&quot;&quot;&#10;def calSum(num):&#10;    sum = 0..." line="915" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3417a442-7abe-427b-8e99-652f0e646809" name="Default" comment="lxj:1063 ~ 1064">
+    <list default="true" id="3417a442-7abe-427b-8e99-652f0e646809" name="Default" comment="lxj:1065 ~ 1066">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PAT_Basic_Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/PAT_Basic_Level.py" afterDir="false" />
     </list>
@@ -28,7 +28,7 @@
     <SUITE FILE_PATH="coverage/PythonPractice$C36.coverage" NAME="C36 Coverage Results" MODIFIED="1551918478207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$mofan5.coverage" NAME="mofan5 Coverage Results" MODIFIED="1551840592084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$C75.coverage" NAME="C75 Coverage Results" MODIFIED="1552177897894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$PAT_Basic_Level.coverage" NAME="PAT_Basic_Level Coverage Results" MODIFIED="1554778570458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$PAT_Basic_Level.coverage" NAME="PAT_Basic_Level Coverage Results" MODIFIED="1554876032463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$P31.coverage" NAME="P31 Coverage Results" MODIFIED="1551441026446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$P17.coverage" NAME="P17 Coverage Results" MODIFIED="1550837489813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$C50.coverage" NAME="C50 Coverage Results" MODIFIED="1551921967666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PAT_Basic_Level.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="969" column="22" selection-start-line="969" selection-start-column="22" selection-end-line="969" selection-end-column="22" />
+            <state relative-caret-position="452">
+              <caret line="990" selection-start-line="990" selection-end-line="990" />
               <folding>
                 <element signature="e#34#52#0" />
                 <element signature="e#218#235#0" />
@@ -100,6 +100,9 @@
                 <element signature="e#22173#22186#0" />
                 <element signature="e#22362#22380#0" />
                 <element signature="e#22832#22850#0" />
+                <element signature="e#23335#23378#0" />
+                <element signature="e#23673#23700#0" />
+                <element signature="e#24069#24082#0" />
               </folding>
             </state>
           </provider>
@@ -156,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +360,8 @@
       <workItem from="1554599283286" duration="1496000" />
       <workItem from="1554621274639" duration="2067000" />
       <workItem from="1554706127839" duration="1470000" />
-      <workItem from="1554775801296" duration="2740000" />
+      <workItem from="1554775801296" duration="2794000" />
+      <workItem from="1554860846357" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="lxj:1030 1031">
       <created>1551442145421</created>
@@ -422,23 +426,30 @@
       <option name="project" value="LOCAL" />
       <updated>1554707600201</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lxj:1065 ~ 1066">
+      <created>1554778610988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554778610989</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103373000" />
+    <option name="totallyTimeSpent" value="108102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2177243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22210066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31215772" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39101863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31215772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39101863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -469,7 +480,8 @@
     <MESSAGE value="lxj:1054 ~ 1055" />
     <MESSAGE value="lxj:1061 ~ 1062" />
     <MESSAGE value="lxj:1063 ~ 1064" />
-    <option name="LAST_COMMIT_MESSAGE" value="lxj:1063 ~ 1064" />
+    <MESSAGE value="lxj:1065 ~ 1066" />
+    <option name="LAST_COMMIT_MESSAGE" value="lxj:1065 ~ 1066" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/P3.py" />
@@ -514,8 +526,8 @@
     <entry file="file://$PROJECT_DIR$/C75.py" />
     <entry file="file://$PROJECT_DIR$/PAT_Basic_Level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="969" column="22" selection-start-line="969" selection-start-column="22" selection-end-line="969" selection-end-column="22" />
+        <state relative-caret-position="452">
+          <caret line="990" selection-start-line="990" selection-end-line="990" />
           <folding>
             <element signature="e#34#52#0" />
             <element signature="e#218#235#0" />
@@ -571,6 +583,9 @@
             <element signature="e#22173#22186#0" />
             <element signature="e#22362#22380#0" />
             <element signature="e#22832#22850#0" />
+            <element signature="e#23335#23378#0" />
+            <element signature="e#23673#23700#0" />
+            <element signature="e#24069#24082#0" />
           </folding>
         </state>
       </provider>
