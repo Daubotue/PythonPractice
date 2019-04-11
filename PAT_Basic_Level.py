@@ -1024,3 +1024,62 @@
 #     print(res[0])
 # else:
 #     print("Not Unique")
+
+"""1069 微博转发抽奖 （20 分)"""
+# M, N, S = map(int, input().split())
+# bingo = set()
+# nameId = []
+# for i in range(M):
+#     id = input()
+#     nameId.append(id)
+# index = S-1
+# while index < M:
+#     if nameId[index] not in bingo:
+#         print(nameId[index])
+#         bingo.add(nameId[index])
+#         index += N
+#     else:
+#         while index+1 < M:
+#             index += 1
+#             if nameId[index] not in bingo:
+#                 print(nameId[index])
+#                 bingo.add(nameId[index])
+#                 index += N
+#                 break
+# if len(bingo) == 0:
+#     print("Keep going...")
+
+"""1070 结绳 （25 分)"""
+# N = int(input())
+# lenLope = list(map(int, input().split()))
+# lenLope.sort(key=lambda x: x)
+# res = int((lenLope[0] + lenLope[1]) / 2)
+# for lp in lenLope[2:]:
+#     res = int((res + lp) / 2)
+# print(res)
+
+"""1071 小赌怡情 （15 分)"""
+# T, K = map(int, input().split())
+# for i in range(K):
+#     n1, b, t, n2 = map(int, input().split())
+#     if T < t:
+#         print("Not enough tokens.  Total = %d." % T)
+#         continue
+#     elif b == 0:
+#         if n1 > n2:
+#             T += t
+#             print("Win %d!  Total = %d." % (t, T))
+#         else:
+#             T -= t
+#             print("Lose %d.  Total = %d." % (t, T))
+#     elif b == 1:
+#         if n1 < n2:
+#             T += t
+#             print("Win %d!  Total = %d." % (t, T))
+#         else:
+#             T -= t
+#             print("Lose %d.  Total = %d." % (t, T))
+#     if T == 0:
+#         print("Game Over.")
+#         break
+
