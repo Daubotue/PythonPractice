@@ -1083,3 +1083,20 @@
 #         print("Game Over.")
 #         break
 
+"""1072 开学寄语 （20 分)"""
+# N, M = map(int, input().split())
+# ilegal = input().split()
+# numPeople = 0
+# numStuff = 0
+# for i in range(N):
+#     person = input().split()
+#     allStuff = person[2:]
+#     res = []
+#     for st in allStuff:
+#         if st in ilegal:
+#             res.append(st)
+#             numStuff += 1
+#     if len(res) > 0:
+#         numPeople += 1
+#         print("%s: %s" % (person[0], ' '.join(res)))
+# print("%d %d" % (numPeople, numStuff))
