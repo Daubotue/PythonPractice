@@ -1100,3 +1100,25 @@
 #         numPeople += 1
 #         print("%s: %s" % (person[0], ' '.join(res)))
 # print("%d %d" % (numPeople, numStuff))
+
+"""1076 Wifi密码 （15 分)"""
+# N = int(input())
+# for i in range(N):
+#     ans = input().split()
+#     for op in ans:
+#         if op[2] == 'T':
+#             print(ord(op[0])-ord('A')+1, end='')
+#             break
+
+"""1077 互评成绩计算 （20 分)"""
+# N, M = map(int, input().split())
+# for i in range(N):
+#     scr = list(map(int, input().split()))
+#     stu = []
+#     for s in scr[1:]:
+#         if 0 <= s <= M:
+#             stu.append(s)
+#     minV = min(stu)
+#     maxV = max(stu)
+#     stuScr = (sum(stu)-minV-maxV)/(len(stu)-2)
+#     print(int((stuScr + float(scr[0]) + 1)/2))
