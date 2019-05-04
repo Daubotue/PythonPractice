@@ -1122,3 +1122,50 @@
 #     maxV = max(stu)
 #     stuScr = (sum(stu)-minV-maxV)/(len(stu)-2)
 #     print(int((stuScr + float(scr[0]) + 1)/2))
+
+"""1078 字符串压缩与解压 (20 分)"""
+# def compression(ct):
+#     res = ""
+#     lenC = len(ct)
+#     curCh = ct[0]
+#     curLen = 1
+#     for i in range(1, lenC):
+#         if ct[i] != curCh:
+#             if curLen == 1:
+#                 res += curCh
+#             else:
+#                 res += str(curLen) + curCh
+#             curCh = ct[i]
+#             curLen = 1
+#         else:
+#             curLen += 1
+#     if curLen == 1:
+#         res += curCh
+#     else:
+#         res += str(curLen) + curCh
+#     return res
+#
+# def Decompression(ct):
+#     res = ""
+#     lenC = len(ct)
+#     num = 0
+#     i = 0
+#     while i < lenC:
+#         while (i < lenC) and (ord('0') <= ord(ct[i]) <= ord('9')):
+#             num = num*10 + (ord(ct[i]) - ord('0'))
+#             i += 1
+#         if num == 0:
+#             res += ct[i]
+#         else:
+#             res += ct[i] * num
+#             num = 0
+#         i += 1
+#     return res
+#
+# t = input()
+# content = input()
+# if t == 'C':
+#     res = compression(content)
+# elif t == 'D':
+#     res = Decompression(content)
+# print(res)
